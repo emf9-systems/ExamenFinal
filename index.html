@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Libroteca</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Libroteca <img src="img/logo.png" alt="logo Libroteca"></h1>
+        <nav>
+            <button id="login">Inicio de Sesion</button>
+            <button id="reg">Registro</button>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div>
+            <img src="img/libro.png" alt="Libro">
+            <p>Elige tu libro</p>
+        </div>
+        <div>
+            <img src="img/check.png" alt="Check">
+            <p>Revisa disponibilidad</p>
+        </div>
+        <div>
+            <img src="img/separalo.png" alt="Separalo">
+            <p>Separalo</p>
+        </div>
+        <div>
+            <img src="img/shipping.png" alt="Truck">
+            <p>Recibelo</p>
+        </div>
+    </div>
+
+    <main>
+
+        <nav class="menu">
+            <ul>
+                <li data-genre="Ficción">Ficción</li>
+                <li data-genre="Históricos">Históricos</li>
+                <li data-genre="Tecnología">Tecnología</li>
+                <li data-genre="Autoayuda">Autoayuda</li>
+                <li data-genre="Poesía">Poesía</li>
+            </ul>
+        </nav>
+
+        <section class="libros">
+            <h2>Todos los libros</h2>
+            <div class="libros-lista">
+                <div class="libro">
+                    <img src="img/cien.jpg" alt="Cien Años de Soledad">
+                    <div>
+                        <h3>Cien Años de Soledad</h3>
+                        <p>Gabriel García Márquez</p>
+                    </div>
+                    <button>Rentar</button>
+                </div>
+                <div class="libro">
+                    <img src="img/rayuela.jpg" alt="Rayuela">
+                    <div>
+                        <h3>Rayuela</h3>
+                        <p>Julio Cortázar</p>
+                    </div>
+                    <button>Rentar</button>
+                </div>
+                <div class="libro">
+                    <img src="img/travesuras.jpg" alt="Travesuras de la Niña Mala">
+                    <div>
+                        <h3>Travesuras de la Niña Mala</h3>
+                        <p>Mario Vargas Llosa</p>
+                    </div>
+                    <button>Rentar</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Todos los derechos reservados. Libroteca</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

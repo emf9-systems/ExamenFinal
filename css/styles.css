@@ -1,0 +1,142 @@
+* {
+    font-family: 'Comic Sans MS';
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    border-bottom: 3px solid #000000;
+}
+
+h1 {
+    display: flex;
+    gap: .3em;
+    cursor: pointer;
+}
+
+header h1 img {
+    align-self: center;
+}
+
+header nav {
+    display: flex;
+    gap: 1em;
+}
+
+header nav button {
+    padding: 0.2em 0.8em;
+    cursor: pointer;
+    box-shadow: 2px 4px 0px -1px rgb(35, 35, 35);
+}
+
+#login {
+    background-color: rgb(24, 74, 117);
+    color: white;
+}
+
+#reg {
+    background-color: rgb(150, 196, 255);
+    color: black;
+    font-weight: bold;
+}
+
+.container, .container div {
+    display: flex;
+}
+
+.container {
+    padding: 2em;
+    justify-content: space-around;
+    background-color: #ffffff;
+    border-bottom: 3px solid #000000;
+}
+
+.container div {
+    font-size: 1.5em;
+    gap: 0.3em;
+    font-weight: bold;
+}
+
+.container div img {
+    width: 1.35em;
+    height: auto;
+    object-fit: contain;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    background-color: #9acbff;
+    padding: 1.5em;
+    justify-content: space-around;
+}
+
+.menu ul li {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
+.libros h2 {
+    padding: 1.3em;
+    text-align: center;
+    background-color: #c9c9c9;
+    font-size: 1.8em;
+}
+
+.libros-lista {
+    display: flex;
+    padding: 0 3em;
+    gap: 2em;
+    justify-content: space-around;
+}
+
+.libro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e7e7e7;
+    padding: 2em 0 1em 0;
+    gap: 1em;
+}
+
+.libro img {
+    width: 70%;
+    height: auto;
+    object-fit: contain;
+}
+
+.libro div {
+    text-align: center;
+}
+
+.libro div h3 {
+    font-weight: lighter;
+}
+
+.libro div p {
+    font-weight: bold;
+}
+
+.libro button {
+    padding: 0 0.8em;
+    cursor: pointer;
+    box-shadow: 2px 4px 0px -1px rgb(35, 35, 35);
+    background-color: rgb(150, 196, 255);
+    color: black;
+    font-size: 1em;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: rgb(23, 61, 138);
+    color: white;
+}
