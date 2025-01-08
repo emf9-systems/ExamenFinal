@@ -8,9 +8,9 @@
 </head>
 <body>
     <header>
-        <h1>Libroteca <img src="img/logo.png" alt="logo Libroteca"></h1>
+        <h1 onclick="recarga()">Libroteca <img onclick="recarga()" src="img/logo.png" alt="logo Libroteca"></h1>
         <nav>
-            <button id="login">Inicio de Sesion</button>
+            <button id="login" onclick="alertaSesion()">Inicio de Sesion</button>
             <button id="reg">Registro</button>
         </nav>
     </header>
@@ -38,11 +38,11 @@
 
         <nav class="menu">
             <ul>
-                <li>Ficción</li>
-                <li>Históricos</li>
-                <li>Tecnología</li>
-                <li>Autoayuda</li>
-                <li>Poesía</li>
+                <li onclick="botonGenero(this)">Ficción</li>
+                <li onclick="botonGenero(this)">Históricos</li>
+                <li onclick="botonGenero(this)">Tecnología</li>
+                <li onclick="botonGenero(this)">Autoayuda</li>
+                <li onclick="botonGenero(this)">Poesía</li>
             </ul>
         </nav>
 
@@ -55,7 +55,7 @@
                         <h3>Cien Años de Soledad</h3>
                         <p>Gabriel García Márquez</p>
                     </div>
-                    <button>Rentar</button>
+                    <button onclick="botonRentar(this)">Rentar</button>
                 </div>
                 <div class="libro">
                     <img src="img/rayuela.jpg" alt="Rayuela">
@@ -63,7 +63,7 @@
                         <h3>Rayuela</h3>
                         <p>Julio Cortázar</p>
                     </div>
-                    <button>Rentar</button>
+                    <button onclick="botonRentar(this)">Rentar</button>
                 </div>
                 <div class="libro">
                     <img src="img/travesuras.jpg" alt="Travesuras de la Niña Mala">
@@ -71,7 +71,7 @@
                         <h3>Travesuras de la Niña Mala</h3>
                         <p>Mario Vargas Llosa</p>
                     </div>
-                    <button>Rentar</button>
+                    <button onclick="botonRentar(this)">Rentar</button>
                 </div>
             </div>
         </section>
